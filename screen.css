@@ -70,6 +70,8 @@ max-width: 30%;
 #navigation{
     text-align: center;
     width: 100%;
+    top: 0;
+    left: 0;
 }
 
 #nav li{
