@@ -5,6 +5,8 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
 <link rel="stylesheet" href="screen.css"/> 
+
+
 </head>
 
 <body>
@@ -28,7 +30,7 @@
 <section id="pictures">
 <h2>Pictures</h2>
 <figure id="cubs">
-<img src="images/pic1.jpg" alt="Cubs 2017"/>
+<img src="images/pic1.jpg" alt="Cubs 2017" id="2017pic"/>
 <figcaption>
 Go Cubs Go.
 
@@ -36,14 +38,14 @@ Go Cubs Go.
 </figure>
 
 <figure id="chicago">
-<img src="images/pic2.jpg" alt="chicago 2017"/>
+<img src="images/pic2.jpg" alt="chicago 2017" class="allpics"/>
 <figcaption>
 A picture of Chicago from the sky. 
 </figcaption>
 </figure>
 
 <figure id="chicago2">
-<img src="images/pic3.jpg" alt="chicago 2017"/>
+<img src="images/pic3.jpg" alt="chicago 2017" class="allpics"/>
 <figcaption>
 A picture of the Millennium park, Chicago. 
 </figcaption>
@@ -57,8 +59,18 @@ A picture of the Millennium park, Chicago.
 <li class="phone">Phone: (630)-823-1449</li></ul>
 </section>
 
+<form name="myForm" action="#"
+onsubmit="return validateForm()" method="post">
+Name: <input type="text" name="fname">
+<input type="submit" value="Submit">
+</form>
+
 <footer id="footer">
 <p>&copy; 2017 Akshay Patel ITM 361 </p>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/myjavascriptfile.js"></script>
+
 </body>
 </html>
