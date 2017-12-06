@@ -3,10 +3,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 html{
-    font-size: 1.125em; /* 18px / 16px */
-    line-height:1.22em;
-    padding: 1.2em 0.75em;
-}
+    font-size: 1.25em; /* 20px / 16px */
+    line-height: 2em;
+    padding-top: 3em;
+    padding-left: 3%;
+    padding-right: 3%;}
 
 
 body {
