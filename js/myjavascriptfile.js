@@ -13,8 +13,15 @@ $(document).ready(function(){
     $(".allpics").click(function(){
      window.location.href = "https://www.choosechicago.com/things-to-do/";
          });
-   
+    $(".pics").click(function(){
+     window.location.href = "http://www.baps.org/Global-Network/North-America/Chicago.aspx";
+         });
+    $("#pics5").click(function(){
+     window.location.href = "http://www.bcci.tv";
+         });
 });
+
+
 
 
     
