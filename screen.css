@@ -4,15 +4,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html{
     font-size: 1.25em; /* 20px / 16px */
-    line-height: 2em;
-    padding-top: 3em;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 3%;
+    line-height: 2em;  
 }
 
 
 body {
+    padding-top: 3em;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
     background-color: lightblue;
 }
 
