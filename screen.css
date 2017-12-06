@@ -22,7 +22,6 @@ h1{
   font-size: 1.777em; /* 31.984 / 18 = */
   line-height: 1.032em; /* 33 / 31.984 = */
   padding-bottom: 0.688em; /* 22 / 31.984 = */
-
 } 
 h2{
   font-size: 1.777em; /* 31.984 / 18 = */
@@ -32,10 +31,10 @@ h2{
 
 
 li a:hover {
-    background-color: #111;
+    background-color: grey;
 }
 .active {
-    background-color: #4CAF50;
+    background-color: orangered;
 }
 
 /*
@@ -47,7 +46,7 @@ li:last-child {
     border-right: none;
 }
 p  {
-    color: #D83938;
+    color: black;
     font-family: serif;
 
 }
