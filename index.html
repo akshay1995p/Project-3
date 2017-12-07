@@ -59,18 +59,29 @@ A picture of the Millennium park, Chicago.
 <li class="phone">Phone: (630)-823-1449</li></ul>
 </section>
 
-</section>
-<section id="connect">
-<h4>Want to leave information back to me?</h4>
-<form name="myForm" action="#"
-onsubmit="return validateForm()" method="post">
-Name: <input type="text" name="fname" id="fname">
-Email: <input type="text" name="email" id="email">
-Phone Number: <input type="text" name="pnumber" id="pnumber">
-<input type="submit" value="Submit">
-</form>
-</section>
-
+    </section>
+    <section id="connect">
+      <h3>Want to Connect?</h3>
+      <form action="#null" method="get" id="profile-form">
+        <ol>
+          <li>
+            <label for="name">LinkedIn Profile Name</label>
+            <input type="text" name="name" id="name"/>
+          </li>
+          <li>
+            <label for="location">Location</label>
+            <input type="text" name="location" id="location"/>
+          </li>
+          <li>
+            <label for="job">Your Business</label>
+            <input type="text" name="job" id="job"/>
+          </li>
+          <li>
+            <input type="submit" name="submit" value="Submit" />
+          </li>
+        </ol>
+      </form>
+    </section>
 
 <footer id="footer">
 <p>&copy; 2017 Akshay Patel ITM 361 </p>

@@ -30,16 +30,11 @@ $(document).ready(function(){
 
 
 //Feed back from the user
-function validateForm() {
-    var x = document.getPropertyValue("fname");
-        alert(x);
-    if (x == "") 
-    {
-        alert(x);
-        return false;
-    }
-        {
-    	alert("Thanks! I will contact you soon");
+$('#profile-form').on('submit', function() {
+    var username = $('#name').val();
+    var location = $('#location').val();
+    var job = $('#job').val();
+    console.log("Form has been completed, LinkedIn:", username, "Location:", location, "Job:", job);
     }
 }
 
