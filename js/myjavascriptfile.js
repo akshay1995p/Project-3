@@ -31,14 +31,16 @@ $(document).ready(function(){
 
 //Feed back from the user
 function validateForm() {
-    var x = document.forms["myForm"]["fname"].value;
+    var x = document.getPropertyValue("fname");
+        alert(x);
     if (x == "") 
-        alert("Everything must be filled out");
+    {
+        alert(x);
         return false;
     }
         {
     	alert("Thanks! I will contact you soon");
     }
-
+}
     
 
