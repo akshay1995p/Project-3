@@ -86,9 +86,9 @@ max-width: 30%;
 image,
 video {
   display: block;
-  max-width:50;
-  padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
-  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
+  max-width:100;
+ 
+  
   
 }
 }
