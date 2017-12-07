@@ -4,8 +4,7 @@
 
 
 
-$.noConflict();
-$('html').addClass('js').removeClass('no-js');
+
 //When user clicks the photos it will take the user to the website associated wiht the photo
 $(document).ready(function(){
     $("#2017pic").click(function(){
@@ -33,12 +32,13 @@ $(document).ready(function(){
 //Feed back from the user
 function validateForm() {
     var x = document.forms["myForm"]["fname"].value;
-    if (x == "") {
+    if (x == "") 
         alert("Everything must be filled out");
         return false;
     }
-    else {
+        {
     	alert("Thanks! I will contact you soon");
-
     }
-    })(jQuery);
+
+    
+
