@@ -7,17 +7,17 @@
 
 //When user clicks the photos it will take the user to the website associated wiht the photo
 $(document).ready(function(){
-    $("#2017pic").click(function(){
-     window.location.href = "https://www.mlb.com/cubs";
+$("#2017pic").click(function(){
+window.location.href = "https://www.mlb.com/cubs";
+ });
+$(".allpics").click(function(){
+window.location.href = "https://www.choosechicago.com/things-to-do/";
          });
-    $(".allpics").click(function(){
-     window.location.href = "https://www.choosechicago.com/things-to-do/";
+$(".pics").click(function(){
+window.location.href = "http://www.baps.org/Global-Network/North-America/Chicago.aspx";
          });
-    $(".pics").click(function(){
-     window.location.href = "http://www.baps.org/Global-Network/North-America/Chicago.aspx";
-         });
-    $("#pics5").click(function(){
-     window.location.href = "http://www.bcci.tv";
+$("#pics5").click(function(){
+window.location.href = "http://www.bcci.tv";
          });
 });
 
@@ -31,15 +31,15 @@ $(document).ready(function(){
 
 //Feed back from the user
 function validateForm() {
-    var x = document.getPropertyValue("fname");
-        alert(x);
-    if (x == "") 
+var x = document.getPropertyValue("fname");
+alert(x);
+if (x == "") 
     {
-        alert(x);
-        return false;
+alert(x);
+return false;
     }
         {
-    	alert("Thanks! I will contact you soon");
+alert("Thanks! I will contact you soon");
     }
 }
 
